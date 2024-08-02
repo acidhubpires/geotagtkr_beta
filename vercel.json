@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "geotagtkr_beta",
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  
